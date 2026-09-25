@@ -2045,6 +2045,8 @@ em {
   font-weight: 700;
 }
 
+
+
 @media (max-width: 1000px) {
   .screen-route { grid-template-columns: 1fr; padding-top: 90px; }
   .route-heading { display: grid; grid-template-columns: 1fr 1fr; }
@@ -2059,7 +2061,7 @@ em {
   .legacy-left h2 { font-size: 3.7rem; }
 }
 
-@media (max-width: 700px) {
+  @media (max-width: 700px) {
   .ambient { display: none; }
   .topbar { height: 58px; padding: 0 16px; }
   .logo-mark { height: 30px; width: 30px; }
@@ -2094,7 +2096,7 @@ em {
   .era-path { display: flex; flex-direction: column; gap: 8px; margin-top: 5px; }
   .era-card { align-items: center; display: grid; gap: 12px; grid-template-columns: 22px 58px 1fr 30px; height: auto; min-height: 16vh; padding: 12px; width: 100%; }
   .era-card:hover { transform: none; }
-  .era-icon { height: 50px; margin: 0; transform: scale(.48); transform-origin: center; width: 100px; }
+  .era-icon { height: 50px; margin: 10; transform: scale(.48); transform-origin: center; width: 100px; }
   .ball-icon { height: 76px; width: 76px; }
   .controller-icon { height: 72px; width: 115px; }
   .era-card small { font-size: .42rem; }
@@ -2209,3 +2211,4 @@ em {
     transition-duration: .01ms !important;
   }
 }
+
