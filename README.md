@@ -1,6 +1,6 @@
 # RePlay India
 
-RePlay India is a mobile-first interactive experience about how games move through time.
+RePlay India is a mobile-first interactive experience about how games move through time
 
 The complete story follows three clear chapters:
 
@@ -75,4 +75,4 @@ All artwork is made with HTML and CSS, so the project works without downloaded i
 - Tap any bottom dot to jump to a screen.
 - Swipe left or right on mobile.
 - Use the left and right arrow keys on a computer.
-- Press Escape to close the future game overlay.
+
