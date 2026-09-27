@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#081f1c">
+  <meta name="description" content="RePlay India turns forgotten Indian games into playable digital experiences.">
+  <title>RePlay India — Forgotten. Found. Forward.</title>
+  <link rel="stylesheet" href="style.css?v=20260926">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="logo" data-go="0" aria-label="Go to opening screen"><span class="logo-mark">र</span><span class="logo-name">RePlay <b>India</b></span></button>
+      <div class="chapter-status"><span id="chapterNumber">01</span><p id="chapterName">Prologue</p></div>
+      <div class="score-box"><span class="icon-star" aria-hidden="true"></span><strong id="totalScore">0</strong></div>
+    </header>
+    <main class="screens" id="screens">
+      <section class="screen screen-home active" data-screen="0" data-title="Prologue">
+        <div class="home-pattern pattern-left"></div><div class="home-pattern pattern-right"></div>
+        <div class="home-copy">
+          <div class="micro-label"><span></span>India’s playground, reborn</div>
+          <h1><span>Forgotten.</span><span>Found.</span><span>Forward.</span></h1>
+          <p>See how Indian games changed over time. Try old favourites, play today’s sports, and imagine what games could look like in the future.</p>
+          <button class="primary-action" data-next>Start exploring <span class="icon-arrow" aria-hidden="true"></span></button>
+        </div>
+        <div class="home-art" aria-hidden="true">
+          <div class="sun-ring ring-one"></div><div class="sun-ring ring-two"></div>
+          <div class="hero-orb"><div class="orbit-word word-one">GILLI</div><div class="orbit-word word-two">PLAY</div><div class="orbit-word word-three">INDIA</div><div class="wood-piece piece-one"></div><div class="wood-piece piece-two"></div></div>
+          <div class="art-ticket"><span>ARCHIVE 01</span><strong>PLAY<br>IS MEMORY</strong></div>
+        </div>
+        <div class="home-foot"><span>6 screens</span><span>7 mini challenges</span><span>Made for students</span></div>
+      </section>
+      <section class="screen screen-route" data-screen="1" data-title="The Journey">
+        <div class="route-heading">
+          <div class="micro-label light"><span></span>The journey</div>
+          <h2>Games change<br>with <em>time.</em></h2><p>Follow the three chapters in order or choose one.</p>
+        </div>
+        <div class="era-path">
+          <button class="era-card forgotten-card" data-go="2"><span class="era-number">01</span><div class="era-icon"><i></i><i></i></div><div class="era-text"><small>Games from the past</small><h3>Forgotten</h3><p>Try games played in courtyards and village lanes.</p></div><b>Explore <span class="icon-arrow-up" aria-hidden="true"></span></b></button>
+          <div class="path-arrow"><span class="icon-arrow" aria-hidden="true"></span></div>
+          <button class="era-card found-card" data-go="3"><span class="era-number">02</span><div class="era-icon ball-icon"></div><div class="era-text"><small>Games we play today</small><h3>Found</h3><p>Play the sports seen on today’s fields and streets.</p></div><b>Play <span class="icon-arrow-up" aria-hidden="true"></span></b></button>
+          <div class="path-arrow"><span class="icon-arrow" aria-hidden="true"></span></div>
+          <button class="era-card forward-card" data-go="4"><span class="era-number">03</span><div class="era-icon controller-icon"><i></i><i></i></div><div class="era-text"><small>Games of tomorrow</small><h3>Forward</h3><p>See how old and new games can become digital.</p></div><b>Enter <span class="icon-arrow-up" aria-hidden="true"></span></b></button>
+        </div>
+        <button class="route-next" data-next>Start with Forgotten <span class="icon-arrow" aria-hidden="true"></span></button>
+      </section>
+      <section class="screen screen-forgotten" data-screen="2" data-title="Forgotten">
+        <div class="chapter-copy">
+          <div class="chapter-tag"><span>01</span> Forgotten</div><h2>Before screens,<br>we played <em>outside.</em></h2><p>Choose an old game and try its mini challenge.</p>
+        </div>
+        <div class="forgotten-workspace">
+          <div class="game-tabs" id="forgottenTabs"><button class="game-tab active" data-old-game="gilli"><span>01</span>Gilli-Danda</button><button class="game-tab" data-old-game="lattoo"><span>02</span>Lattoo</button><button class="game-tab" data-old-game="stapoo"><span>03</span>Stapoo</button><button class="game-tab" data-old-game="lagori"><span>04</span>Lagori</button></div>
+          <div class="memory-console">
+            <div class="memory-topline"><span id="oldRegion">Across India</span><strong id="oldRound">Ready</strong></div>
+            <div class="old-stage" id="oldStage">
+              <div class="stage-sun"></div>
+              <div class="gilli-scene old-scene active" data-scene="gilli"><div class="gilli-flight" id="gilliFlight"></div><div class="gilli-stick" id="gilliStick"></div><div class="timing-track"><span class="timing-zone"></span><i id="gilliMarker"></i></div></div>
+              <div class="lattoo-scene old-scene" data-scene="lattoo"><div class="spin-rings"><i></i><i></i><i></i></div><div class="lattoo" id="lattoo"><span></span></div></div>
+              <div class="stapoo-scene old-scene" data-scene="stapoo"><div class="hop-grid" id="hopGrid"><button data-hop="7">7</button><div><button data-hop="5">5</button><button data-hop="6">6</button></div><button data-hop="4">4</button><div><button data-hop="2">2</button><button data-hop="3">3</button></div><button data-hop="1">1</button></div></div>
+              <div class="lagori-scene old-scene" data-scene="lagori"><div class="stone-stack" id="stoneStack"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="throw-ball" id="throwBall"></div></div>
+              <div class="stage-message" id="oldMessage">Land in the gold zone</div>
+            </div>
+            <div class="memory-controls"><div><small id="oldInstructionLabel">Timing challenge</small><p id="oldInstruction">Tap when the marker crosses the centre</p></div><button id="oldAction">Strike <span class="icon-arrow-up" aria-hidden="true"></span></button></div>
+          </div>
+        </div>
+        <button class="chapter-next" data-next><span>Next chapter</span> Found <b class="icon-arrow" aria-hidden="true"></b></button>
+      </section>
+      <section class="screen screen-found" data-screen="3" data-title="Found">
+        <div class="found-copy">
+          <div class="chapter-tag"><span>02</span> Found</div><h2>Games we play<br><em>today.</em></h2><p>Cricket, football and hockey are now played in streets, schools and stadiums.</p>
+          <div class="field-selector" id="fieldSelector"><button class="active" data-field="cricket"><span>01</span><strong>Cricket</strong><small>Time the shot</small></button><button data-field="football"><span>02</span><strong>Football</strong><small>Find the corner</small></button><button data-field="hockey"><span>03</span><strong>Hockey</strong><small>Thread the goal</small></button></div>
+        </div>
+        <div class="field-console">
+          <div class="stadium-lights"><i></i><i></i><i></i><i></i><i></i></div><div class="field-hud"><span>LIVE PLAY</span><strong id="fieldScore">00</strong></div>
+          <div class="field-play" id="fieldPlay"><div class="field-lines"></div><div class="goal-post"><i></i><i></i><i></i></div><div class="target-ring" id="targetRing"></div><div class="field-ball cricket-ball" id="fieldBall"></div><div class="aim-arrow" id="aimArrow"></div><div class="field-result" id="fieldResult">Aim with the slider</div></div>
+          <div class="aim-control"><input id="aimSlider" type="range" min="0" max="100" value="50" aria-label="Aim direction"><button id="fieldAction">Play shot <span class="icon-ball" aria-hidden="true"></span></button></div>
+        </div>
+        <button class="chapter-next dark-next" data-next><span>Next chapter</span> Forward <b class="icon-arrow" aria-hidden="true"></b></button>
+      </section>
+      <section class="screen screen-forward" data-screen="4" data-title="Forward">
+        <div class="future-header"><div><div class="chapter-tag neon-tag"><span>03</span> Forward</div><h2>Old games.<br><em>New ideas.</em></h2></div><p>Choose a game and see how it could work on a future console.</p></div>
+        <div class="future-console">
+          <div class="console-glow"></div>
+          <div class="console-screen">
+            <div class="console-bar"><span>REPLAY OS</span><p><i></i> PLAYER 01</p><strong id="consoleTime">20:26</strong></div>
+            <div class="console-feature" id="consoleFeature"><div class="feature-copy"><small id="futureType">HERITAGE ARCADE</small><h3 id="futureName">Gilli<br>Galaxy</h3><p id="futureText">Launch the gilli through a neon galaxy with perfect timing.</p><button id="launchFuture">Launch game <span class="icon-play" aria-hidden="true"></span></button></div><div class="feature-art" id="featureArt"><div class="digital-orbit"><i></i><i></i><span></span></div></div></div>
+            <div class="game-library" id="futureLibrary"><button class="active" data-future="0"><span class="library-art art-gilli"><i></i><b></b></span><strong>Gilli Galaxy</strong><small>Classic remixed</small></button><button data-future="1"><span class="library-art art-stapoo"><i></i></span><strong>Stapoo Beat</strong><small>Rhythm remix</small></button><button data-future="2"><span class="library-art art-cricket"><i></i></span><strong>Street 22</strong><small>Cricket evolved</small></button><button data-future="3"><span class="library-art art-lagori"><i></i><b></b></span><strong>Lagori Arena</strong><small>Team tactics</small></button></div>
+          </div>
+          <div class="console-controller" aria-hidden="true"><div class="dpad"></div><div class="controller-light"></div><div class="controller-buttons"><i></i><i></i><i></i><i></i></div></div>
+        </div>
+        <button class="chapter-next future-next" data-next><span>See your impact</span> Legacy <b class="icon-arrow" aria-hidden="true"></b></button>
+      </section>
+      <section class="screen screen-legacy" data-screen="5" data-title="Legacy">
+        <div class="legacy-left"><div class="micro-label"><span></span>Your result</div><h2>Play it.<br>Then <em>share it.</em></h2><p>Digital versions help students discover old games. The best way to preserve them is to learn the rules, teach a friend, and play them again.</p><div class="legacy-score"><strong id="legacyScore">0</strong><span>heritage<br>points</span></div><button class="primary-action" data-go="0">Play again <span class="icon-refresh" aria-hidden="true"></span></button></div>
+        <div class="legacy-board">
+          <div class="legacy-progress"><div><span>Journey preserved</span><strong id="legacyPercent">0%</strong></div><i><b id="legacyFill"></b></i></div><h3>Your collection</h3>
+          <div class="badge-grid"><div class="legacy-badge" data-badge="memory"><span class="badge-symbol memory-symbol"></span><div><strong>Memory Keeper</strong><small>Play 2 forgotten games</small></div></div><div class="legacy-badge" data-badge="field"><span class="badge-symbol field-symbol"></span><div><strong>Field Hero</strong><small>Score in Found</small></div></div><div class="legacy-badge" data-badge="future"><span class="badge-symbol future-symbol"></span><div><strong>Future Player</strong><small>Launch an arcade remix</small></div></div></div>
+          <div class="pledge-card"><div><small>THE REPLAY PLEDGE</small><p id="pledgeText">I will learn one game and teach it to one friend.</p></div><button id="pledgeButton">Take the pledge <span class="icon-plus" aria-hidden="true"></span></button></div>
+          <div class="final-line"><span>Forgotten</span><i class="icon-arrow" aria-hidden="true"></i><span>Found</span><i class="icon-arrow" aria-hidden="true"></i><strong>Forward</strong></div>
+        </div>
+      </section>
+    </main>
+    <nav class="screen-nav" aria-label="Screen navigation"><button class="nav-arrow arrow-left" id="prevScreen" aria-label="Previous screen"></button><div class="nav-dots" id="navDots"><button class="active" data-go="0" aria-label="Screen 1"></button><button data-go="1" aria-label="Screen 2"></button><button data-go="2" aria-label="Screen 3"></button><button data-go="3" aria-label="Screen 4"></button><button data-go="4" aria-label="Screen 5"></button><button data-go="5" aria-label="Screen 6"></button></div><button class="nav-arrow arrow-right" id="nextScreen" aria-label="Next screen"></button></nav>
+  </div>
+  <div class="game-overlay" id="gameOverlay" aria-hidden="true"><div class="overlay-panel"><button class="overlay-close" id="closeOverlay" aria-label="Close game"></button><span>NOW LAUNCHING</span><h2 id="overlayTitle">Gilli Galaxy</h2><div class="overlay-game"><div class="portal-ring"><i></i><i></i><b id="portalTarget"></b></div><button id="portalButton">Hit the portal</button></div><p id="overlayMessage">Tap when the rings align.</p></div></div>
+  <div class="toast" id="toast"><span class="icon-star" aria-hidden="true"></span><p id="toastText">Points added</p></div>
+  <script src="script.js?v=20260926"></script>
+x</body>
+</html>
