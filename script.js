@@ -159,12 +159,12 @@ function selectOldGame(game) {
   document.getElementById("oldRegion").textContent = data.region;
   document.getElementById("oldInstructionLabel").textContent = data.label;
   document.getElementById("oldInstruction").textContent = data.instruction;
-<<<<<<< HEAD
-  document.getElementById("oldAction").innerHTML = `${data.action} <span class="icon-arrow-up" aria-hidden="true"></span>`;
-=======
+
   document.getElementById("oldAction").innerHTML =
     `${data.action} <span class="icon-arrow-up" aria-hidden="true"></span>`;
->>>>>>> 5e20dae (Make Font bigger)
+  document.getElementById("oldAction").innerHTML =
+    `${data.action} <span class="icon-arrow-up" aria-hidden="true"></span>`;
+
   document.getElementById("oldRound").textContent = "Ready";
   oldActionLocked = false;
   resetHopGrid();
@@ -238,12 +238,13 @@ function startStapoo() {
   hopNumber = 1;
   document.querySelector('[data-hop="1"]').classList.add("next-hop");
   document.getElementById("oldRound").textContent = "Hop 1 of 7";
-<<<<<<< HEAD
-  document.getElementById("oldAction").innerHTML = 'Restart <span class="icon-refresh" aria-hidden="true"></span>';
-=======
+
   document.getElementById("oldAction").innerHTML =
     'Restart <span class="icon-refresh" aria-hidden="true"></span>';
->>>>>>> 5e20dae (Make Font bigger)
+
+  document.getElementById("oldAction").innerHTML =
+    'Restart <span class="icon-refresh" aria-hidden="true"></span>';
+
   oldActionLocked = false;
 }
 
@@ -331,12 +332,12 @@ function setField(game) {
       button.classList.toggle("active", button.dataset.field === game),
     );
   fieldBall.className = `field-ball ${data.className}`;
-<<<<<<< HEAD
-  document.getElementById("fieldAction").innerHTML = `${data.action} <span class="icon-ball" aria-hidden="true"></span>`;
-=======
+
   document.getElementById("fieldAction").innerHTML =
     `${data.action} <span class="icon-ball" aria-hidden="true"></span>`;
->>>>>>> 5e20dae (Make Font bigger)
+  document.getElementById("fieldAction").innerHTML =
+    `${data.action} <span class="icon-ball" aria-hidden="true"></span>`;
+
   document.getElementById("fieldResult").classList.remove("show");
   aimSlider.value = 50;
   updateAim();
@@ -491,15 +492,17 @@ document.getElementById("portalButton").addEventListener("click", () => {
 document.getElementById("pledgeButton").addEventListener("click", () => {
   if (state.pledged) return;
   state.pledged = true;
-<<<<<<< HEAD
-  document.getElementById("pledgeText").textContent = "Pledge taken. One game. One friend. One tradition forward.";
-  document.getElementById("pledgeButton").innerHTML = 'Pledged <span class="icon-check" aria-hidden="true"></span>';
-=======
+
   document.getElementById("pledgeText").textContent =
     "Pledge taken. One game. One friend. One tradition forward.";
   document.getElementById("pledgeButton").innerHTML =
     'Pledged <span class="icon-check" aria-hidden="true"></span>';
->>>>>>> 5e20dae (Make Font bigger)
+
+  document.getElementById("pledgeText").textContent =
+    "Pledge taken. One game. One friend. One tradition forward.";
+  document.getElementById("pledgeButton").innerHTML =
+    'Pledged <span class="icon-check" aria-hidden="true"></span>';
+
   addPoints(50, "RePlay pledge taken");
 });
 
@@ -522,15 +525,14 @@ function updateLegacy() {
   document.getElementById("legacyPercent").textContent = `${percent}%`;
   document.getElementById("legacyFill").style.width = `${percent}%`;
   if (state.pledged) {
-<<<<<<< HEAD
-    document.getElementById("pledgeText").textContent = "Pledge taken. One game. One friend. One tradition forward.";
-    document.getElementById("pledgeButton").innerHTML = 'Pledged <span class="icon-check" aria-hidden="true"></span>';
-=======
     document.getElementById("pledgeText").textContent =
       "Pledge taken. One game. One friend. One tradition forward.";
     document.getElementById("pledgeButton").innerHTML =
       'Pledged <span class="icon-check" aria-hidden="true"></span>';
->>>>>>> 5e20dae (Make Font bigger)
+    document.getElementById("pledgeText").textContent =
+      "Pledge taken. One game. One friend. One tradition forward.";
+    document.getElementById("pledgeButton").innerHTML =
+      'Pledged <span class="icon-check" aria-hidden="true"></span>';
   }
 }
 
