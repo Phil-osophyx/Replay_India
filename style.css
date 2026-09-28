@@ -2324,3 +2324,63 @@ em {
     transition-duration: 0.01ms !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+/* MOBILE FONT SIZE +2px — desktop is untouched */
+@media screen and (max-width: 799px) {
+  .logo-name { font-size: calc(0.8rem + 2px); }
+  .chapter-status { font-size: calc(0.6rem + 2px); }
+  .score-box { font-size: calc(0.7rem + 2px); }
+  .micro-label, .chapter-tag { font-size: calc(0.5rem + 2px); }
+  .primary-action { font-size: calc(0.55rem + 2px); }
+  .home-copy h1 { font-size: calc(clamp(3rem, 14vw, 4.2rem) + 2px); }
+  .home-copy > p { font-size: calc(0.7rem + 2px); }
+  .orbit-word { font-size: calc(0.48rem + 2px); }
+  .art-ticket span { font-size: calc(0.43rem + 2px); }
+  .art-ticket strong { font-size: calc(0.85rem + 2px); }
+  .route-heading h2, .chapter-copy h2, .found-copy h2, .future-header h2, .legacy-left h2 { font-size: calc(2.2rem + 2px); }
+  .route-heading > p { font-size: calc(0.62rem + 2px); }
+  .era-number, .era-card small { font-size: calc(0.42rem + 2px); }
+  .era-card h3 { font-size: calc(1.35rem + 2px); }
+  .era-card > b span { font-size: calc(1rem + 2px); }
+  .chapter-copy > p, .found-copy > p, .legacy-left > p { font-size: calc(0.6rem + 2px); }
+  .game-tab { font-size: calc(0.52rem + 2px); }
+  .memory-topline { font-size: calc(0.48rem + 2px); }
+  .stage-message { font-size: calc(0.75rem + 2px); }
+  .memory-controls small { font-size: calc(0.45rem + 2px); }
+  .memory-controls p { font-size: calc(0.52rem + 2px); }
+  .memory-controls button, .aim-control button, .feature-copy button { font-size: calc(0.5rem + 2px); }
+  .field-selector strong { font-size: calc(0.52rem + 2px); }
+  .field-hud { font-size: calc(0.5rem + 2px); }
+  .field-hud strong { font-size: calc(1rem + 2px); }
+  .field-result { font-size: calc(0.72rem + 2px); }
+  .future-header h2 { font-size: calc(2.1rem + 2px); }
+  .console-bar { font-size: calc(0.42rem + 2px); }
+  .feature-copy small { font-size: calc(0.43rem + 2px); }
+  .feature-copy h3 { font-size: calc(2rem + 2px); }
+  .feature-copy p { font-size: calc(0.5rem + 2px); }
+  .game-library strong { font-size: calc(0.42rem + 2px); }
+  .legacy-score strong { font-size: calc(2.7rem + 2px); }
+  .legacy-score span { font-size: calc(0.45rem + 2px); }
+  .legacy-progress > div { font-size: calc(0.5rem + 2px); }
+  .legacy-board > h3 { font-size: calc(1rem + 2px); }
+  .legacy-badge strong { font-size: calc(0.62rem + 2px); }
+  .legacy-badge small { font-size: calc(0.45rem + 2px); }
+  .pledge-card small { font-size: calc(0.42rem + 2px); }
+  .pledge-card p { font-size: calc(0.6rem + 2px); }
+  .pledge-card button { font-size: calc(0.42rem + 2px); }
+  .final-line { font-size: calc(0.9rem + 2px); }
+  .overlay-panel > span { font-size: calc(0.48rem + 2px); }
+  .overlay-panel h2 { font-size: calc(2rem + 2px); }
+  .overlay-game button { font-size: calc(0.52rem + 2px); }
+  .overlay-panel > p { font-size: calc(0.6rem + 2px); }
+  .toast { font-size: calc(0.58rem + 2px); }
+}
+
+@media screen and (max-width: 799px) and (max-height: 650px) {
+  .home-copy h1 { font-size: calc(2.6rem + 2px); }
+  .home-copy > p { font-size: calc(0.58rem + 2px); }
+  .route-heading h2, .chapter-copy h2, .found-copy h2, .future-header h2, .legacy-left h2 { font-size: calc(1.8rem + 2px); }
+}
+>>>>>>> 5e20dae (Make Font bigger)
