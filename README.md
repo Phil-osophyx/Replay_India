@@ -2,7 +2,7 @@
 
 RePlay India is a student-friendly interactive project about how games change over time.
 
-The complete story follows three clear chapters:
+The complete story follows:
 
 **Forgotten → Found → Forward**
 
