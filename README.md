@@ -67,7 +67,7 @@ The main colours are at the top of `style.css` inside `:root`.
 
 The forgotten-game text is inside `oldGameData` in `script.js`. The future arcade games are inside `futureGames` in the same file.
 
-All artwork is made from simple HTML boxes and CSS shapes, so the project works without downloaded images.
+
 
 ## Controls
 
