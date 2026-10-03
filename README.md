@@ -62,9 +62,8 @@ The final pledge completes the full journey.
 
 ## Changing the project
 
-The main colours are at the top of `style.css` inside `:root`.
 
-The forgotten-game text is inside `oldGameData` in `script.js`. The future arcade games are inside `futureGames` in the same file.
+The forgotten-game text is inside `oldGameData` in `script.js`. The future arcade games are inside `futureGames` in the same file
 
 
 
