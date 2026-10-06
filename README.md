@@ -5,7 +5,7 @@ The complete story follows:
 
 **Forgotten → Found → Forward**
 
-It is built with plain HTML, CSS, and JavaScript. The design uses simple shapes, solid colours, and code that can be explained step by step.
+
 
 ## How to run it
 
