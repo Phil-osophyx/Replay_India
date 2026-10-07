@@ -11,7 +11,6 @@ The complete story follows:
 
 1. Keep `index.html`, `style.css`, and `script.js` in the same folder.
 2. Open `index.html` in a modern browser.
-3. Use the bottom arrows, dots, keyboard arrow keys, or swipe left and right on a phone.
 
 ## The six screens
 
