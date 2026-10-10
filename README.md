@@ -1,9 +1,6 @@
 # RePlay India
 
-
-The complete story follows:
-
-**Forgotten → Found → Forward**
+*
 
 
 
