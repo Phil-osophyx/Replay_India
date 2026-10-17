@@ -49,13 +49,6 @@ The three badges are:
 
 The final pledge completes the full journey.
 
-## Files
-
-- `index.html` contains the six screens and their content.
-- `style.css` contains the responsive layout, artwork, console design, and animations.
-- `script.js` controls navigation, mini-games, scoring, badges, and saved progress.
-- `README.md` explains the project in simple language.
-
 ## Changing the project
 
 
