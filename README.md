@@ -1,14 +1,5 @@
 # RePlay India
 
-*
-
-
-
-## How to run it
-
-1. Keep `index.html`, `style.css`, and `script.js` in the same folder.
-2. Open `index.html` in a modern browser.
-
 ## The six screens
 
 1. **Prologue** introduces the idea and visual identity.
