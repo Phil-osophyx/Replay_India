@@ -38,14 +38,7 @@ The three badges are:
 - **Field Hero:** complete a present-day field challenge
 - **Future Player:** launch a futuristic arcade remix
 
-The final pledge completes the full journey.
-
-## Changing the project
-
-
-The forgotten-game text is inside `oldGameData` in `script.js`. The future arcade games are inside `futureGames` in the same file
-
-
+The final pledge completes the full 
 
 ## Controls
 
