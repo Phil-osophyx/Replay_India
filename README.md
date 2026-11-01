@@ -40,10 +40,3 @@ The three badges are:
 
 The final pledge completes the full 
 
-## Controls
-
-- Tap the bottom arrows to change screens.
-- Tap any bottom dot to jump to a screen.
-- Swipe left or right on mobile.
-- Use the left and right arrow keys on a computer.
-- Press Escape to close the future game overlay.
