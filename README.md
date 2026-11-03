@@ -32,11 +32,7 @@ Choose one of four futuristic game concepts and launch it. Tap when the moving l
 
 Playing challenges adds heritage points. The app saves progress in the browser with `localStorage`.
 
-The three badges are:
 
-- **Memory Keeper:** play two forgotten games
-- **Field Hero:** complete a present-day field challenge
-- **Future Player:** launch a futuristic arcade remix
 
 The final pledge completes the full 
 
