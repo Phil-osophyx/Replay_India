@@ -26,13 +26,7 @@ Choose cricket, football, or hockey. Move the aim slider toward the glowing targ
 
 ### Forward
 
-Choose one of four futuristic game concepts and launch it. Tap when the moving light reaches the top of the portal.
+Choose one of four futuristic game concepts and launch it. Tap when the moving klight reaches the top of the portal.
 
 ## Points and progress
-
-Playing challenges adds heritage points. The app saves progress in the browser with `localStorage`.
-
-
-
-The final pledge completes the full 
 
