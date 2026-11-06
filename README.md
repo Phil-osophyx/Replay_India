@@ -13,12 +13,6 @@ Every screen fits inside one device viewport. The app does not use a long vertic
 
 ## Playable experiences
 
-### Forgotten
-
-- **Gilli-Danda:** stop the moving marker near the middle for a strong strike.
-- **Lattoo:** launch a spinning wooden top.
-- **Stapoo:** tap the glowing squares from one to seven.
-- **Lagori:** throw a ball at the stack of seven stones.
 
 ### Found
 
