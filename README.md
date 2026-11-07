@@ -18,9 +18,4 @@ Every screen fits inside one device viewport. The app does not use a long vertic
 
 Choose cricket, football, or hockey. Move the aim slider toward the glowing target, then take the shot.
 
-### Forward
-
-Choose one of four futuristic game concepts and launch it. Tap when the moving klight reaches the top of the portal.
-
-## Points and progress
 
