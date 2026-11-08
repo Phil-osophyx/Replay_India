@@ -19,3 +19,10 @@ Every screen fits inside one device viewport. The app does not use a long vertic
 Choose cricket, football, or hockey. Move the aim slider toward the glowing target, then take the shot.
 
 
+## Controls
+
+- Tap the bottom arrows to change screens.
+- Tap any bottom dot to jump to a screen.
+- Swipe left or right on mobile.
+- Use the left and right arrow keys on a computer.
+- Press Escape to close the future game overlay.
