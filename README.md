@@ -11,8 +11,6 @@
 
 Every screen fits inside one device viewport. The app does not use a long vertical page.
 
-## Playable
-Choose cricket, football, or hockey. Move the aim slider toward the glowing target, then take the shot.
 
 
 ## Controls
