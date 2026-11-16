@@ -9,7 +9,7 @@
 5. **Forward** presents the games inside a futuristic console interface.
 6. **Legacy** shows points, badges, progress, and the RePlay pledge.
 
-Every screen fits inside one device viewport. The app does not use a long vertical page.
+
 
 
 
