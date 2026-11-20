@@ -19,4 +19,4 @@
 - Tap any bottom dot to jump to a screen.
 - Swipe left or right on mobile.
 - Use the left and right arrow keys on a computer.
-- Press Escape to close the future game overlay.
+  
