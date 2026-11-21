@@ -18,5 +18,5 @@
 - Tap the bottom arrows to change screens.
 - Tap any bottom dot to jump to a screen.
 - Swipe left or right on mobile.
-- Use the left and right arrow keys on a computer.
+.
   
