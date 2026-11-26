@@ -7,7 +7,7 @@
 3. **Forgotten** contains four small simulations based on traditional games.
 4. **Found** contains modern field-game challenges.
 5. **Forward** presents the games inside a futuristic console interface.
-6. **Legacy** shows points, badges, progress, and the RePlay pledge.
+
 
 
 
