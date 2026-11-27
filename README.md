@@ -16,8 +16,4 @@
 ## Controls
 
 - Tap the bottom arrows to change screens.
-- Tap any bottom dot to jump to a screen.
-
-
-- 
-  
+- Tap any bottom dot to jump to a scree
